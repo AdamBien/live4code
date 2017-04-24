@@ -1,0 +1,1 @@
+HA-Proxy image was adapted from: [https://github.com/AdamBien/Docklands](https://github.com/AdamBien/Docklands) / [https://github.com/AdamBien/docklands/tree/master/haproxy-ping](https://github.com/AdamBien/docklands/tree/master/haproxy-ping)
