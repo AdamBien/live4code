@@ -4,6 +4,7 @@ package com.oraclecode.services;
 import javax.ejb.ConcurrencyManagement;
 import javax.ejb.ConcurrencyManagementType;
 import javax.ejb.Singleton;
+import javax.inject.Inject;
 import javax.interceptor.Interceptors;
 
 @ConcurrencyManagement(ConcurrencyManagementType.BEAN)
@@ -11,8 +12,11 @@ import javax.interceptor.Interceptors;
 @Interceptors(CircuitBreaker.class)
 public class ServerlessHello {
 
+    @Inject
+    String message;
+
     public void exceptional() {
-        throw new ServerUnstableException("unstable in london");
+        throw new ServerUnstableException("unstable in " + message);
     }
 
     public Hello findHello() {

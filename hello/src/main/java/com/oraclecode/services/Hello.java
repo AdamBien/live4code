@@ -10,19 +10,21 @@ import javax.json.JsonObject;
  */
 public class Hello {
 
-    private String myName;
+    private String name;
 
     public Hello(JsonObject input) {
-        this.myName = input.getString("name");
+        this.name = input.getString("name");
     }
 
     public Hello(String name) {
-        this.myName = name;
+        this.name = name;
     }
 
 
     public JsonObject toJson() {
-        return Json.createObjectBuilder().add("name", this.myName).build();
+        return Json.createObjectBuilder().
+                add("name", this.name).
+                build();
     }
 
 }

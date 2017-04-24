@@ -14,7 +14,7 @@ import javax.ws.rs.core.Response.Status;
 public class ServerUnstableException extends WebApplicationException {
 
     public ServerUnstableException(String message) {
-        super(Response.status(Status.CONFLICT).header("reason", "too early").build());
+        super(Response.status(Status.CONFLICT).header("reason", message).build());
     }
 
 }

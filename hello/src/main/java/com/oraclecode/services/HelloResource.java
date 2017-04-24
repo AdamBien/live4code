@@ -30,6 +30,13 @@ public class HelloResource {
         supplyAsync(this::get, mes).thenAccept(response::resume);
     }
 
+    @GET
+    @Path("exceptional")
+    public void exceptional() {
+        this.hello.exceptional();
+    }
+
+
     public JsonObject get() {
         return hello.findHello().toJson();
     }
