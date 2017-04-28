@@ -16,6 +16,7 @@ public class ServerlessHello {
     String message;
 
     public void exceptional() {
+        System.out.println("message = " + message);
         throw new ServerUnstableException("unstable in " + message);
     }
 
