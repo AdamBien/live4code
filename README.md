@@ -7,4 +7,17 @@ Code For The Oracle Code Conference Keynotes (London, Berlin, Prague, Brussels)
 
 Common understanding about serverless and microservices explained. 
 
+## Berlin (24.04.2017)
+
+Load balancing, rolling updates and green-blue deployments explained
+
+## Prague (27.04.2017)
+
+Focus on serverless and krtek :-)
+
+## Brussels (06.06.2017)
+
+Circuit Breaker, Bulkheads, Monitoring and cloud native deployments discussed.
+
+
 Thanks for attending the keynotes -- see you at [airhacks.com](http://airhacks.com) at MUC airport, [airhacks.io](http://airhacks.io) or if you have any questions left at [airhacks.tv](http://airhacks.tv)
