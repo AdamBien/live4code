@@ -19,6 +19,8 @@ Focus on serverless and krtek :-)
 
 Circuit Breaker, Bulkheads, Monitoring and cloud native deployments discussed.
 
+Pushing Java EE full profile (with CentOS, openJDK 8 and GlassFish v5) microservice to Oracle Container Cloud Service:
+
 [![Pushing Java EE 7/8 to Oracle Container Cloud Service](https://i.ytimg.com/vi/6cVHeEeKLSI/mqdefault.jpg)](https://youtu.be/6cVHeEeKLSI?list=PLxU9yM-_yPs_mzUwlTtpswa8t0LqGzRAD)
 
 
