@@ -19,5 +19,7 @@ Focus on serverless and krtek :-)
 
 Circuit Breaker, Bulkheads, Monitoring and cloud native deployments discussed.
 
+[![Pushing Java EE 7/8 to Oracle Container Cloud Service](https://i.ytimg.com/vi/6cVHeEeKLSI/mqdefault.jpg)](https://youtu.be/6cVHeEeKLSI?list=PLxU9yM-_yPs_mzUwlTtpswa8t0LqGzRAD)
+
 
 Thanks for attending the keynotes -- see you at [airhacks.com](http://airhacks.com) at MUC airport, [airhacks.io](http://airhacks.io) or if you have any questions left at [airhacks.tv](http://airhacks.tv)
